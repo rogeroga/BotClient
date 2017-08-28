@@ -1,0 +1,29 @@
+
+# extract all the rows
+
+cat schools.json | ./jq.exe '.rows' | less
+
+cat schools.json | ./jq.exe '.rows[][1]' | awk '{print NR, $0}' | more
+
+cat schools.json | ./jq.exe '.rows[0],.rows[1],.rows[2],.rows[3],.rows[4],.rows[4],.rows[5],.rows[6],.rows[7],.rows[8],.rows[9]'
+
+
+
+
+# extract all the school names 
+
+cat schools.json | ./jq.exe '.rows[][1]' | awk '{print NR, $0}' | more
+
+
+# get sabio reviews
+
+cat schools.json | ./jq.exe '.rows[][1]' | awk '{print NR, $0}' | grep -i sabio
+
+118 "Sabio"
+119 "Sabio"
+120 "Sabio"
+121 "Sabio"
+122 "Sabio"
+
+
+

@@ -1,0 +1,29 @@
+ {
+
+  "headers": [
+    0   "cr-email-modal",
+    1   "SchoolName",
+    2   "Url",
+    3   "RatingCount",
+    4   "Rating",
+    5   "RatingContent",
+    6   "Reviews",
+    7   "CurrentUrl",
+    8   "error"
+ ],   
+
+ "rows": [
+        [
+
+
+        ],
+        [ 
+
+        ]       
+    ],
+
+"totalRows" : 509
+
+}
+
+ review fields info like: Id, date, school, reviewer and content.
