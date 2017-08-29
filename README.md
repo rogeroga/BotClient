@@ -8,4 +8,4 @@ These functions would be called by SQL scripts at the time that data is being lo
 parsing of HTML code and return data that would be added to the database tables.
 
 The whole process would be driven by SQL scripts, more information about this can be found in the
-BotClient project.
+ReviewsETL project.
