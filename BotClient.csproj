@@ -85,8 +85,12 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormattedReviews.html" />
+    <Content Include="json-extract-with-jq.txt" />
+    <Content Include="layout.txt" />
     <Content Include="reviews.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -1,8 +1,9 @@
 ﻿////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Description:
-//  SQL Server CLR Functions used in loading and extracting data for the analytics of dev bootcamp school reviews. 
+//  SQL Server CLR Functions used in loading and extracting data for the analytics of the bootcamp school reviews. 
 //
-//  The GetReviews() function to parse the HTML content and return a table with a review in each row  
+//  The GetReviews() function is used to parse the HTML content and return a table with a review in each row
+//
 //  The GetFiles() function retrieves the filenames and their information from a file directory
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
