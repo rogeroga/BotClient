@@ -1,6 +1,6 @@
 # BotClient
 
-This module containst the code to parse the HTML content from the screen scraping files received daily.
+This module containst the code to parse the HTML content from the screen scraping JSON files received daily.
 
 Here you can find the code for the SQL CRL functions. 
 
